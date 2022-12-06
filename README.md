@@ -25,7 +25,7 @@ The homemade-rushed software for people dreaming of a free simulation api.
 </p>                                                                                                                             
                                                                                                                                                       
 ## About The Project
-Cheapderly is a self-hosted simulated envirorment designer to test simple and complex smart contract scenarios on real-time, minimal-setup network that heavily relies on historical and up-to-date production data.
+Cheapderly is a self-hosted simulated envirorment designed to test simple and complex smart contract scenarios on real-time, minimal-setup network that heavily relies on historical and up-to-date production data.
 
 ## Install
 
