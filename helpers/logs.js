@@ -1,12 +1,16 @@
-let logs = `Fresh start`;
+class LogManager {
+    logs = {}
 
-function log(l='') {
-    if(l)
-    logs = `${logs} \n ${l.toString()}`;
+    log(id, log) {
+        if(log)
+            this.logs[id] = `${this.logs[id]} \n ${log.toString()}`;
+    }
+
+    get(id) {
+        return this.logs[id];
+    }
 }
 
-function getLogs(l='') {
-    return logs;
-}
+const logManager = new LogManager();
 
-module.exports = {getLogs, log}
+module.exports = {logManager}

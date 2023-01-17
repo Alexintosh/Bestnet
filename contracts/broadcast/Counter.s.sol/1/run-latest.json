@@ -9,6 +9,7 @@
       "arguments": [
         "0x5b73C5498c1E3b4dbA84de0F1833c4a029d90519"
       ],
+      "rpc": "http://127.0.0.1:55024",
       "transaction": {
         "type": "0x02",
         "from": "0xc7152b41627efa465015612236587640fc056be9",
@@ -42,6 +43,8 @@
   "pending": [],
   "path": "/Users/alexintosh/Code/cheapderly/contracts/broadcast/Counter.s.sol/1/run-latest.json",
   "returns": {},
-  "timestamp": 1670331833,
-  "commit": "d7c53bb"
+  "timestamp": 1673973114,
+  "chain": 1,
+  "multi": false,
+  "commit": "874ccec"
 }

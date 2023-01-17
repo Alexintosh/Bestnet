@@ -28,7 +28,7 @@ analyze :; python3 analysis/remappings.py && ./scripts/analyze.sh
 #### Deployment scripts ####
 
 deploy-fork :; forge script CounterScript \
-    --rpc-url http://127.0.0.1:8545 \
+    --rpc-url $(RPC) \
     --private-key ${PRIVATE_KEY} \
     --broadcast \
     --slow \
