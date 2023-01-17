@@ -30,13 +30,13 @@ Bestnet is a self-hosted simulated envirorment designed to test simple and compl
 
 ## Features
 
-🍴 Create forks from any block in a breeze
-🤓 Human-readable RPC Urls
-🎚️ Turn ON/OFF your fork at anytime
-📝 Check your fork logs
-🎯 Automagically deploy contracts in the fork
-🥸 Automagically scripts which requires impersonating an account
-🔐 Simple authentifications
+🍴 Create forks from any block in a breeze <br>
+🤓 Human-readable RPC Urls<br>
+🎚️ Turn ON/OFF your fork at anytime<br>
+📝 Check your fork logs<br>
+🎯 Automagically deploy contracts in the fork<br>
+🥸 Automagically scripts which requires impersonating an account<br>
+🔐 Simple authentifications<br>
 
 ## Install
 
