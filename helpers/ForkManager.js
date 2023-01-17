@@ -106,6 +106,12 @@ class ForkManager {
         }
     }
 
+    deactivate(id) {
+        if(this.forks[id]) {
+            this.forks[id].rpc_active = false;
+        }
+    }
+
     kill(id) {
         if(this.forks[id]) {
             this.forks[id].process.kill();

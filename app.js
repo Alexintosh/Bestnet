@@ -104,9 +104,14 @@ app.get('/reset/:slug/:pass', simpleAuth, async (req, res) => {
     res.send(`Done, Check <a href="/logs/${res.params.slug}">Logs</a>`);
 })
 
-app.all("/rpc/:id/activate/:pass", simpleAuth, async (req, res, next) => {
+app.all("/rpc/:id/on/:pass", simpleAuth, async (req, res, next) => {
     forkMng.activate(req.params.id);
     res.send(`RPC ${res.params.id} activated`);
+})
+
+app.all("/rpc/:id/off/:pass", simpleAuth, async (req, res, next) => {
+    forkMng.deactivate(req.params.id);
+    res.send(`RPC ${res.params.id} deactivated`);
 })
 
 app.all("/rpc/:id", async (req, res, next) => {
