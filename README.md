@@ -6,7 +6,7 @@
   <br>Bestnet
 </h1>
   <p align="center">
-The homemade-rushed software for people dreaming of a free simulation api.
+The best network to develop solidity contract for EVM chains.
     <br />
     </p>
 </p>
@@ -26,6 +26,17 @@ The homemade-rushed software for people dreaming of a free simulation api.
                                                                                                                                                       
 ## About The Project
 Bestnet is a self-hosted simulated envirorment designed to test simple and complex smart contract scenarios on real-time, minimal-setup network that heavily relies on historical and up-to-date production data.
+
+
+## Features
+
+🍴 Create forks from any block in a breeze
+🤓 Human-readable RPC Urls
+🎚️ Turn ON/OFF your fork at anytime
+📝 Check your fork logs
+🎯 Automagically deploy contracts in the fork
+🥸 Automagically scripts which requires impersonating an account
+🔐 Simple authentifications
 
 ## Install
 
